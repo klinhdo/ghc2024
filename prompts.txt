@@ -1,0 +1,6 @@
+Scenario: Remove "#include <vector>" line, it will complain, then we can use GitHub Copilot to explain the error & quick fix
+
+Scenario: Use code generation to generate new map/vector/list
+
+Scenario: Use code generation to get additional input
+
