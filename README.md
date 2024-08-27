@@ -7,7 +7,7 @@
 
 ## Instruction on activating GitHub Copilot trial
 - If you are a student, you can get access to GitHub Copilot for free as it is included in the GitHub Student Developer Pack.
--- To apply for the GitHub Student Developer Pack, go to https://docs.github.com/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student
+- To apply for the GitHub Student Developer Pack, go to https://docs.github.com/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student
 
 To activate the trial:
 1. Go to https://github.com/features/copilot/plans
