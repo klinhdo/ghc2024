@@ -44,7 +44,7 @@ TODO: Add picture
 - What improvements can be made on the function listAvailableRooms()
 
 # After the workshop
-## Survey link:
+## Survey link
 TODO: Add survey link
 
 ## After the workshop, here are some helpful links: 
