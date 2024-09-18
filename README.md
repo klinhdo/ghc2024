@@ -28,13 +28,14 @@
 - Paste this line inside the main function:
   *//Generate a new map to store guest names and their special requests* inside the main function
 - (Bonus) Write a new function to cancel a booking, this function takes room name and guest name, and returns whether the booking was successful
+- (Bonus) Try the above prompt but paste it as a comment inside the file (use // to start a comment).
 - (Bonus) As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string.
 - (Bonus - Once you compiled and run into a compiling error) There is a compiling error <insert error here>, explain this error and how to fix it​.
 
 **Quest 3: Be a good player, add documentations**
-- Provide a documentation for the hotel management system. Describe its main features such as room booking, canceling bookings, viewing bookings, checking in/out guests, and listing available rooms
-- Write a one-liner comment that describe what “listAvailableRooms()” function does
-- Write a detailed comment that describe what viewBookings() does, and documents the inputs and output of the function
+- (Bonus) Write a detailed comment that describe what viewBookings() does, and documents the inputs and output of the function
+- (Bonus) Provide a documentation for the hotel management system intended for user. Describe its main features such as room booking, canceling bookings, viewing bookings, checking in/out guests, and listing available rooms
+- (Bonus) Write a one-liner comment that describe what “listAvailableRooms()” function does
 
 **Quest 4: Write test cases**
 - Can you help generate unit tests for function listAvailableRooms()?
@@ -42,8 +43,9 @@
 - What are some edge cases I should consider for function cancelBooking()?
 
 **Quest 5: Get some feedback**
-- Pretend to be a senior engineer and review the following code for a hotel management system. Please provide feedback on the completeness, correctness, and efficiency of the code.
-- What improvements can be made on the function listAvailableRooms()
+- Pretend to be a senior engineer, what improvements can be made on the function listAvailableRooms().
+- (Bonus) Pretend to be a senior engineer and review the following code for a hotel management system. Please provide feedback on the completeness, correctness, and efficiency of the code.
+- 
 
 # After the workshop
 ## Survey link
