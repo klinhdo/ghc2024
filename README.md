@@ -26,7 +26,7 @@
 **Quest 2: Add your mark to the scrolls by writing the missing functions**
 - Help me implement a feature to list all rooms that are not currently booked in a hotel management system. – listAvailableRooms()​
 - Paste this line inside the main function: \
-  *//Generate a new map to store guest names and their special requests* inside the main function
+  *// Generate a new map to store guest names and their special requests* inside the main function
 - (Bonus) Write a new function to cancel a booking, this function takes room name and guest name, and returns whether the booking was successful
 - (Bonus) Try the above prompt but paste it as a comment inside the file (use // to start a comment).
 - (Bonus) As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string.
