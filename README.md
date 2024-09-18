@@ -25,7 +25,7 @@
 
 **Quest 2: Add your mark to the scrolls by writing the missing functions**
 - Help me implement a feature to list all rooms that are not currently booked in a hotel management system. – listAvailableRooms()​
-- Paste this line inside the main function:
+- Paste this line inside the main function: \
   *//Generate a new map to store guest names and their special requests* inside the main function
 - (Bonus) Write a new function to cancel a booking, this function takes room name and guest name, and returns whether the booking was successful
 - (Bonus) Try the above prompt but paste it as a comment inside the file (use // to start a comment).
@@ -33,7 +33,7 @@
 - (Bonus - Once you compiled and run into a compiling error) There is a compiling error <insert error here>, explain this error and how to fix it​.
 
 **Quest 3: Be a good player, add documentations**
-- (Bonus) Write a detailed comment that describe what viewBookings() does, and documents the inputs and output of the function
+- Write a detailed comment that describe what viewBookings() does, and documents the inputs and output of the function
 - (Bonus) Provide a documentation for the hotel management system intended for user. Describe its main features such as room booking, canceling bookings, viewing bookings, checking in/out guests, and listing available rooms
 - (Bonus) Write a one-liner comment that describe what “listAvailableRooms()” function does
 
