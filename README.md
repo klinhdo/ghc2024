@@ -24,11 +24,12 @@
 
 
 **Quest 2: Add your mark to the scrolls by writing the missing functions**
-- There is a compiling error, use GitHub Copilot to explain the error and see how to fix it​
 - Help me implement a feature to list all rooms that are not currently booked in a hotel management system. – listAvailableRooms()​
-- Code suggestion using in-line comments: Add comment “//Generate a new map to store guest names and their special requests”
+- Paste this line inside the main function:
+  *//Generate a new map to store guest names and their special requests* inside the main function
 - (Bonus) Write a new function to cancel a booking, this function takes room name and guest name, and returns whether the booking was successful
 - (Bonus) As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string.
+- (Bonus - Once you compiled and run into a compiling error) There is a compiling error <insert error here>, explain this error and how to fix it​.
 
 **Quest 3: Be a good player, add documentations**
 - Provide a documentation for the hotel management system. Describe its main features such as room booking, canceling bookings, viewing bookings, checking in/out guests, and listing available rooms
