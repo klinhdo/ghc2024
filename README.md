@@ -18,8 +18,10 @@
 
 ## Prompts we are using today
 **Quest 1: You are given an ancient scroll filled with lines of code, find out what it is about**
-- Can you help me understand what this part of the code is doing? Specifically, I’d like to know what extractRoomName and updateRoomStatus are supposed to do.
-- What does this program do? How many inputs does it take?
+- What does this program do? How many inputs does it take? Can you write it in one paragraph.
+- Can you explain function checkOutGuest?
+- (Bonus) Can you help me understand what this part of the code is doing? Specifically, I’d like to know what extractRoomName and updateRoomStatus are supposed to do.
+
 
 **Quest 2: Add your mark to the scrolls by writing the missing functions**
 - There is a compiling error, use GitHub Copilot to explain the error and see how to fix it​
