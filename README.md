@@ -18,10 +18,8 @@
 
 ## Prompts we are using today
 **Quest 1: You are given an ancient scroll filled with lines of code, find out what it is about**
-- What does this program do? How many inputs does it take? Can you write it in one paragraph.
-- Can you explain function checkOutGuest?
-- (Bonus) Can you help me understand what this part of the code is doing? Specifically, I’d like to know what extractRoomName and updateRoomStatus are supposed to do.
-
+- Provide a brief summary of what function1() does.
+- Summarize in one paragraph what this program does.
 
 **Quest 2: Add your mark to the scrolls by writing the missing functions**
 - Help me implement a feature to list all rooms that are not currently booked in a hotel management system. – listAvailableRooms()​
