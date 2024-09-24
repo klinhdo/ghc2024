@@ -20,6 +20,7 @@
 **Quest 1: You are given an ancient scroll filled with lines of code, find out what it is about**
 - Provide a brief summary of what function1() does.
 - Summarize in one paragraph what this program does.
+- (Bonus) What functionalities can a user uses in this program?
 
 **Quest 2: Add your mark to the scrolls by writing the missing functions**
 - Help me implement a feature to list all rooms that are not currently booked in a hotel management system. – listAvailableRooms()​
