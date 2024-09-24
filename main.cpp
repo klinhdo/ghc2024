@@ -2,12 +2,42 @@
 
 #include <iostream>
 #include <string>
-#include <vector>
 #include <map>
 
-void bookRoom(const std::string& roomName, const std::string& guestName) {
+// Vectors to store list of rooms
+std::map<std::string, bool> allRooms = {
+    {"LibertyBell", true},
+    {"ReadingTerminal", true},
+    {"RockyStatue", true},
+    {"IndependenceHall", true}
+};
+
+// Map to store bookings with room name as key and guest name as value
+std::map<std::string, std::string> bookings;
+
+bool bookRoom(const std::string& roomName, const std::string& guestName) {
     std::cout << "Booking room: " << roomName << " for guest: " << guestName << std::endl;
-    // Add logic to book the room here
+    if (allRooms[roomName])
+    {
+        bookings[roomName] = guestName;
+        allRooms[roomName] = false;
+        std::cout << "Room " << roomName << " successfully booked for " << guestName << "." << std::endl;
+        return true;
+    } else {
+        std::cout << "Room " << roomName << " is already booked. Please try with a different room" << std::endl;
+        return false;
+    }
+}
+
+bool function1(const std::string& roomName, const std::string& guestName) {
+    if (allRooms[roomName])
+    {
+        bookings[roomName] = guestName;
+        allRooms[roomName] = false;
+        return true;
+    } else {
+        return false;
+    }
 }
 
 void cancelBooking(const std::string& roomName, const std::string& guestName) {
@@ -22,6 +52,58 @@ void viewBookings() {
 
 void listAvailableRooms() {
     std::cout << "This feature is under development" << std::endl;
+}
+
+bool function1(const std::string& guestName, const std::string& horoscopeSign) {
+    std::map<std::string, std::string> horoscopeToRoom = {
+        {"Aries", "LibertyBell"},
+        {"Taurus", "ReadingTerminal"},
+        {"Gemini", "RockyStatue"},
+        {"Cancer", "IndependenceHall"},
+        {"Leo", "LibertyBell"},
+        {"Virgo", "ReadingTerminal"},
+        {"Libra", "RockyStatue"},
+        {"Scorpio", "IndependenceHall"},
+        {"Sagittarius", "LibertyBell"},
+        {"Capricorn", "ReadingTerminal"},
+        {"Aquarius", "RockyStatue"},
+        {"Pisces", "IndependenceHall"}
+    };
+
+    std::string roomName = horoscopeToRoom[horoscopeSign];
+
+    if (allRooms[roomName]) {
+        bookings[roomName] = guestName;
+        allRooms[roomName] = false;
+        std::cout << "Room " << roomName << " successfully booked for " << guestName << " based on horoscope sign " << horoscopeSign << "." << std::endl;
+        return true;
+    } else {
+        std::string currentGuest = bookings[roomName];
+        std::cout << "Room " << roomName << " is already booked by " << currentGuest << ". Finding next available room for " << currentGuest << "." << std::endl;
+
+        bool foundNextRoom = false;
+        for (auto& room : allRooms) {
+            if (room.second) { // If the room is available
+                bookings[room.first] = currentGuest;
+                allRooms[room.first] = false;
+                allRooms[roomName] = true; // Mark the original room as available
+                bookings.erase(roomName); // Remove the original booking
+                std::cout << "Moved " << currentGuest << " to room " << room.first << "." << std::endl;
+                foundNextRoom = true;
+                break;
+            }
+        }
+
+        if (foundNextRoom) {
+            bookings[roomName] = guestName;
+            allRooms[roomName] = false;
+            std::cout << "Room " << roomName << " successfully booked for " << guestName << " based on horoscope sign " << horoscopeSign << "." << std::endl;
+            return true;
+        } else {
+            std::cout << "No available rooms to move " << currentGuest << ". Booking failed for " << guestName << "." << std::endl;
+            return false;
+        }
+    }
 }
 
 void checkInGuest(const std::string& guestInfo) {
@@ -53,10 +135,9 @@ void printUsage() {
 }
 
 std::string getGuestInfo(const std::string& roomName) {
-    // Add logic to get guest information based on the room number
-    // Return the guest information as a string
-    return "Guest information for room " + roomName
+    return bookings[roomName];
 }
+
 /**
  * @brief The main function of the program.=
  * 
@@ -76,11 +157,7 @@ int main(int argc, char* argv[]) {
 
     std::string operation = argv[1];
 
-    // Vectors to store list of rooms
-    std::vector<std::string> allRooms = {"LibertyBell", "ReadingTerminal", "RockyStatue", "IndependenceHall"};
-
-    // Map to store bookings with room name as key and guest name as value
-    std::map<std::string, std::string> bookings;
+    
 
     if (operation == "book") {
         if (argc != 4) {
