@@ -15,6 +15,7 @@ std::map<std::string, bool> allRooms = {
 // Map to store bookings with room name as key and guest name as value
 std::map<std::string, std::string> bookings;
 
+// Function 1
 bool bookRoom(const std::string& roomName, const std::string& guestName) {
     std::cout << "Booking room: " << roomName << " for guest: " << guestName << std::endl;
     if (allRooms[roomName])
@@ -29,32 +30,19 @@ bool bookRoom(const std::string& roomName, const std::string& guestName) {
     }
 }
 
-bool function1(const std::string& roomName, const std::string& guestName) {
-    if (allRooms[roomName])
-    {
-        bookings[roomName] = guestName;
-        allRooms[roomName] = false;
-        return true;
-    } else {
-        return false;
-    }
-}
-
+// Function 2
 void cancelBooking(const std::string& roomName, const std::string& guestName) {
     std::cout << "Cancelling booking for room: " << roomName << " for guest: " << guestName << std::endl;
-    // Add logic to cancel the booking here
 }
 
-void viewBookings() {
-    std::cout << "Viewing all bookings..." << std::endl;
-    // Add logic to view bookings here
-}
 
+// Function 3
 void listAvailableRooms() {
     std::cout << "This feature is under development" << std::endl;
 }
 
-bool function1(const std::string& guestName, const std::string& horoscopeSign) {
+// Function 4
+bool magicFunction(const std::string& guestName, const std::string& horoscopeSign) {
     std::map<std::string, std::string> horoscopeToRoom = {
         {"Aries", "LibertyBell"},
         {"Taurus", "ReadingTerminal"},
@@ -106,26 +94,7 @@ bool function1(const std::string& guestName, const std::string& horoscopeSign) {
     }
 }
 
-void checkInGuest(const std::string& guestInfo) {
-    std::cout << "Checking in guest: " << guestInfo << std::endl;
-    // Add logic to check-in the guest here
-
-    // Update the room status as reserved
-    // You can modify the logic based on how the room status is stored
-    std::string roomName = extractRoomName(guestInfo); // Assuming there is a function to extract the room name from guest information
-    updateRoomStatus(roomName, "reserved"); // Assuming there is a function to update the room status
-}
-
-void checkOutGuest(const std::string& guestInfo) {
-    std::cout << "Checking out guest: " << guestInfo << std::endl;
-    // Add logic to check-out the guest here
-
-    // Update the room status as available
-    // You can modify the logic based on how the room status is stored
-    std::string roomName = extractRoomName(guestInfo); // Assuming there is a function to extract the room name from guest information
-    updateRoomStatus(roomName, "available"); // Assuming there is a function to update the room status
-}
-
+# Function 5
 void printUsage() {
     std::cout << "Usage:" << std::endl;
     std::cout << ">> book <roomName> <guestName>" << std::endl;
@@ -134,6 +103,7 @@ void printUsage() {
     std::cout << ">> listAvailableRooms" << std::endl;
 }
 
+// Function 6
 std::string getGuestInfo(const std::string& roomName) {
     return bookings[roomName];
 }
@@ -156,8 +126,6 @@ int main(int argc, char* argv[]) {
     }
 
     std::string operation = argv[1];
-
-    
 
     if (operation == "book") {
         if (argc != 4) {
