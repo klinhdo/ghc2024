@@ -8,8 +8,16 @@
 - If you are a student, you can get access to GitHub Copilot for free as it is included in the GitHub Student Developer Pack.
     - To apply for the GitHub Student Developer Pack, go to [aka.ms/githubstudentpack](https://aka.ms/githubstudentpack).
  
-- Instruction on claiming GitHub Copilot Coupon:
-    - To be added prior to the conference
+- Instruction on claiming GitHub Copilot Coupon (non-student):
+    - Create an account on [GitHub](https://github.com/) if you haven't already
+    - Go to https://github.com/redeem/cfp-XXXXXX (To be added prior to the conference)
+    - At the page, fill your address. It will not ask for a Credit Card.
+    - Once the form is filled in, click Save.
+    - On the next page, click the Redeem button.
+    - Next, go to https://gh.io/copilot-free
+    - Click 'Get access to GitHub copilot'
+    - Pick the settings what you need and Click save and get started.
+    - Congrats, Done!!! 
 
 - Install the Copilot extension in Visual Studio Code using the link: https://docs.github.com/copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor?tool=vscode
 
