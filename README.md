@@ -51,7 +51,13 @@ Try this prompt:
 - Pretend to be a senior engineer, what improvements can be made on the function listAvailableRooms().
 - (Bonus) Pretend to be a senior engineer and review the following code for a hotel management system. Please provide feedback on the completeness, correctness, and efficiency of the code.
 
-# After the workshop
+## Tips for Crafting Effective Prompts for Copilot
+- Clarity and Specificity
+- Iterative Improvement
+- Combine Concepts
+- Explore Documentation
+
+
 ## Survey link
 https://aka.ms/ghc-survey
 TODO: Verify survey link
