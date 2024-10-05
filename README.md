@@ -53,8 +53,14 @@ Try this prompt:
 
 # After the workshop
 ## Survey link
-TODO: Add survey link
+https://aka.ms/ghc-survey
+TODO: Verify survey link
 
 ## After the workshop, here are some helpful links: 
 - https://docs.github.com/en/copilot/quickstart
 - https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot
+
+## Contacts: 
+- Lisa Do -  https://linkedin.com/in/lisa-do
+- Anshika Gupta - https://www.linkedin.com/in/anshika-gupta-53944316
+
