@@ -23,7 +23,7 @@
 
 ## Prompts we are using today
 **Quest 1: Discover the Secrets Behind the Magic Function in Your Code!**
-- Provide a brief summary of what function1() does.
+- Provide a brief summary of what magicFunction() does.
 - Summarize what this program is.
 - (Bonus) What functionalities can a user uses in this program?
 
