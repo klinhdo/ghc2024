@@ -35,7 +35,8 @@
 - (Bonus) As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. 
 Try this prompt: 
 **Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string. **
-- (Bonus - Once you compiled and run into a compiling error) There is a compiling error <insert error here>, explain this error and how to fix it​.
+- Bonus#1 -Once you compile and run into a compiling error, you will see an error message: <error details>. Explain this error and how to fix it.
+- Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string.
 
 **Quest 3: Writing Test Cases!**
 - Can you help generate unit tests for function listAvailableRooms()?
