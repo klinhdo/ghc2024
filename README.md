@@ -32,11 +32,10 @@
 - Paste this comment on line 18: \
   **// Generate a new tuple to store guest names, the number of guests they are bringing and whether they have paid**
 - (Ctrl+I/Cmd+I) Write function cancelBooking
-- (Bonus) As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. 
+- Bonus Prompt#1 -Once you compile and run into a compiling error, you will see an error message: <error details>. Explain this error and how to fix it.
+- Bonus Prompt#2 -  As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. 
 Try this prompt: 
 **Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string. **
-- Bonus#1 -Once you compile and run into a compiling error, you will see an error message: <error details>. Explain this error and how to fix it.
-- Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string.
 
 **Quest 3: Writing Test Cases!**
 - Can you help generate unit tests for function listAvailableRooms()?
