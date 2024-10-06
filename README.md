@@ -43,7 +43,7 @@ Try this prompt:
 - (Bonus) Write unit tests for function bookRoom(). The unit tests should be using the naming pattern Function_ShouldXXX_WhenXXX. Ensure that extractRoomName() is called at least once and assert that guestInfo is not null.
   
 **Quest 4: Level Up: Add Documentation!**
-- Write a detailed comment that describe what viewBookings() does, and documents the inputs and output of the function.
+- Write a detailed comment that describe what bookRoom() does, and documents the inputs and output of the function.
 - (Bonus #1) Provide a documentation for the hotel management system intended for user. Describe its main features such as room booking, canceling bookings, viewing bookings, checking in/out guests, and listing available rooms.
 - (Bonus #2) Write a one-liner comment that describes what the bookRoom() function does.
 
