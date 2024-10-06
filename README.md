@@ -44,8 +44,8 @@ Try this prompt:
   
 **Quest 4: Level Up: Add Documentation!**
 - Write a detailed comment that describe what viewBookings() does, and documents the inputs and output of the function.
-- (Bonus) Provide a documentation for the hotel management system intended for user. Describe its main features such as room booking, canceling bookings, viewing bookings, checking in/out guests, and listing available rooms.
-- (Bonus) Write a one-liner comment that describe what “listAvailableRooms()” function does.
+- (Bonus #1) Provide a documentation for the hotel management system intended for user. Describe its main features such as room booking, canceling bookings, viewing bookings, checking in/out guests, and listing available rooms.
+- (Bonus #2) Write a one-liner comment that describes what the bookRoom() function does.
 
 **Quest 5: Elevate Your Code with Expert Feedback!**
 - Pretend to be a senior engineer, what improvements can be made on the function listAvailableRooms().
