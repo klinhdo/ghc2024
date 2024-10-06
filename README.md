@@ -24,8 +24,8 @@
 ## Prompts we are using today
 **Quest 1: Discover the Secrets Behind the Magic Function in Your Code!**
 - Provide a brief summary of what magicFunction() does.
-- Summarize what this program does.
-- (Bonus) What functionalities can a user uses in this program?
+- What is std::map?
+- Bonus Prompt: What functionalities can a user uses in this program?
 
 **Quest 2: Solve the Mystery and Complete the Pending Booking Function!**
 - Prompt #3: Write function cancelBooking
