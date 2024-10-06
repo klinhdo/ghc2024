@@ -29,7 +29,7 @@
 
 **Quest 2: Solve the Mystery and Complete the Pending Booking Function!**
 - Prompt #3: Write function cancelBooking
-- Prompt #4: Prompt #4: Comment “// Generate a new tuple to store guest names, the number of guests they are bringing and whether they have paid”
+- Prompt #4: Comment “// Generate a new tuple to store guest names, the number of guests they are bringing and whether they have paid”
 - Prompt #5: As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. 
 Try this prompt: 
 **Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string. **
