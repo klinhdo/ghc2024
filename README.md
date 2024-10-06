@@ -48,7 +48,7 @@ Try this prompt:
 - (Bonus #2) Write a one-liner comment that describes what the bookRoom() function does.
 
 **Quest 5: Elevate Your Code with Expert Feedback!**
-- Pretend to be a senior engineer, what improvements can be made on the function listAvailableRooms().
+- Pretend to be a senior engineer. What improvements can be made to the bookRoom() function?
 - (Bonus) Pretend to be a senior engineer and review the following code for a hotel management system. Please provide feedback on the completeness, correctness, and efficiency of the code.
 
 ## Tips for Crafting Effective Prompts for Copilot
