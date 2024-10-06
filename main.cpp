@@ -16,32 +16,6 @@ std::map<std::string, bool> allRooms = {
 std::map<std::string, std::string> bookings;
 
 // Function 1
-bool bookRoom(const std::string& roomName, const std::string& guestName) {
-    std::cout << "Booking room: " << roomName << " for guest: " << guestName << std::endl;
-    if (allRooms[roomName])
-    {
-        bookings[roomName] = guestName;
-        allRooms[roomName] = false;
-        std::cout << "Room " << roomName << " successfully booked for " << guestName << "." << std::endl;
-        return true;
-    } else {
-        std::cout << "Room " << roomName << " is already booked. Please try with a different room" << std::endl;
-        return false;
-    }
-}
-
-// Function 2
-void cancelBooking(const std::string& roomName, const std::string& guestName) {
-    std::cout << "Cancelling booking for room: " << roomName << " for guest: " << guestName << std::endl;
-}
-
-
-// Function 3
-void listAvailableRooms() {
-    std::cout << "This feature is under development" << std::endl;
-}
-
-// Function 4
 bool magicFunction(const std::string& guestName, const std::string& horoscopeSign) {
     std::map<std::string, std::string> horoscopeToRoom = {
         {"Aries", "LibertyBell"},
@@ -93,6 +67,33 @@ bool magicFunction(const std::string& guestName, const std::string& horoscopeSig
         }
     }
 }
+
+// Function 2
+bool bookRoom(const std::string& roomName, const std::string& guestName) {
+    std::cout << "Booking room: " << roomName << " for guest: " << guestName << std::endl;
+
+    if (!allRooms[roomName]) {
+        std::cout << "Room " << roomName << " is already booked. Trying magic function..." << std::endl;
+        return magicFunction(guestName, "Libra"); // Example horoscope sign, change as needed
+    }
+
+    bookings[roomName] = guestName;
+    allRooms[roomName] = false;
+    std::cout << "Room " << roomName << " successfully booked for " << guestName << "." << std::endl;
+    return true;
+}
+
+// Function 3
+void cancelBooking(const std::string& roomName, const std::string& guestName) {
+    std::cout << "Cancelling booking for room: " << roomName << " for guest: " << guestName << std::endl;
+}
+
+
+// Function 4
+void listAvailableRooms() {
+    std::cout << "This feature is under development" << std::endl;
+}
+
 
 # Function 5
 void printUsage() {
