@@ -10,7 +10,7 @@
  
 - Instruction on claiming GitHub Copilot Coupon (non-student):
     - Create an account on [GitHub](https://github.com/) if you haven't already
-    - Go to https://github.com/redeem/cfp-XXXXXX (To be added prior to the conference)
+    - Go to [https://github.com/redeem/cfp-grace24](https://github.com/redeem/cfp-grace24)
     - At the page, fill your address. It will not ask for a Credit Card.
     - Once the form is filled in, click Save.
     - On the next page, click the Redeem button.
