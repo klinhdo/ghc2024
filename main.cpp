@@ -95,7 +95,7 @@ void listAvailableRooms() {
 }
 
 
-# Function 5
+// Function 5
 void printUsage() {
     std::cout << "Usage:" << std::endl;
     std::cout << ">> book <roomName> <guestName>" << std::endl;
@@ -119,7 +119,7 @@ std::string getGuestInfo(const std::string& roomName) {
  * @return int The exit status of the program.
  */
 int main(int argc, char* argv[]) {
-    std::cout << "Welcome to the Hotel Grace Hopper!" << std::endl;
+    std::cout << "Welcome to the Zodiac Palace!" << std::endl;
 
     if (argc < 2) {
         printUsage();
