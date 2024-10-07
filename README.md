@@ -22,12 +22,12 @@
 - Install the Copilot extension in Visual Studio Code using the link: https://docs.github.com/copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor?tool=vscode
 
 ## Prompts we are using today
-**Quest 1: Discover the Secrets Behind the Magic Function in Your Code!**
+**Quest 1: Discover the Secrets Behind the Magic Function**
 - Provide a brief summary of what magicFunction() does.
 - What is std::map?
 - Bonus Prompt: What functionalities can a user uses in this program?
 
-**Quest 2: Solve the Mystery and Complete the Hotel Booking System!**
+**Quest 2: Complete the Hotel Booking System!**
 - Prompt #3: Write function cancelBooking
 - Prompt #4: Comment “// Generate a new tuple to store guest names, the number of guests they are bringing and whether they have paid”
 - Prompt #5: As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. <br>
