@@ -17,7 +17,7 @@
     - Next, go to https://gh.io/copilot-free
     - Click 'Get access to GitHub copilot'
     - Pick the settings what you need and Click save and get started.
-    - Congrats, Done!!! 
+    - Congrats, you have got GitHub Copilot trial for 7 days!!! 
 
 - Install the Copilot extension in Visual Studio Code using the link: https://docs.github.com/copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor?tool=vscode
 
@@ -56,11 +56,11 @@ Try this prompt: <br>
 - Explore Documentation
 
 ## Survey link
-https://aka.ms/ghc-survey
+[https://aka.ms/ghc-survey](https://aka.ms/ghc-survey)
 
 ## After the workshop, here are some helpful links: 
-- https://docs.github.com/en/copilot/quickstart
-- https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot
+- [https://docs.github.com/en/copilot/quickstart](https://docs.github.com/en/copilot/quickstart)
+- [https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 
 ## Contacts: 
 - Lisa Do -  [linkedin.com/in/lisa-do](https://linkedin.com/in/lisa-do)
