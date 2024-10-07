@@ -19,8 +19,6 @@
     - Pick the settings what you need and Click save and get started.
     - Congrats, you have got GitHub Copilot trial for 7 days!!! 
 
-- Install the Copilot extension in Visual Studio Code using the link: https://docs.github.com/copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor?tool=vscode
-
 ## Prompts we are using today
 **Quest 1: Discover the Secrets Behind the Magic Function**
 - Provide a brief summary of what magicFunction() does.
