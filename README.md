@@ -57,7 +57,6 @@ Try this prompt: <br>
 
 ## Survey link
 https://aka.ms/ghc-survey
-TODO: Verify survey link
 
 ## After the workshop, here are some helpful links: 
 - https://docs.github.com/en/copilot/quickstart
