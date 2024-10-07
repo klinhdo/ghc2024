@@ -69,12 +69,12 @@ bool magicFunction(const std::string& guestName, const std::string& horoscopeSig
 }
 
 // Function 2
-bool bookRoom(const std::string& roomName, const std::string& guestName) {
+bool bookRoom(const std::string& roomName, const std::string& guestName, const std::string& horoscopeSign) {
     std::cout << "Booking room: " << roomName << " for guest: " << guestName << std::endl;
 
     if (!allRooms[roomName]) {
         std::cout << "Room " << roomName << " is already booked. Trying magic function..." << std::endl;
-        return magicFunction(guestName, "Libra"); // Example horoscope sign, change as needed
+        return magicFunction(guestName, horoscopeSign); 
     }
 
     bookings[roomName] = guestName;
