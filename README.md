@@ -27,7 +27,7 @@
 - What is std::map?
 - Bonus Prompt: What functionalities can a user uses in this program?
 
-**Quest 2: Solve the Mystery and Complete the Pending Booking Function!**
+**Quest 2: Solve the Mystery and Complete the Hotel Booking System!**
 - Prompt #3: Write function cancelBooking
 - Prompt #4: Comment “// Generate a new tuple to store guest names, the number of guests they are bringing and whether they have paid”
 - Prompt #5: As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. <br>
@@ -38,7 +38,7 @@ Try this prompt: <br>
 **Quest 3: Writing Test Cases!**
 - Prompt #6: Can you help generate unit tests for the function bookRoom()?
 - Prompt #7: What are some edge cases I should consider for the function bookRoom()?
-- (Bonus) Write unit tests for function bookRoom(). The unit tests should be using the naming pattern Function_ShouldXXX_WhenXXX. Ensure that extractRoomName() is called at least once and assert that guestInfo is not null.
+- (Bonus) Write unit tests for the function magicFunction(). The unit tests should follow the naming pattern Function_ShouldReturnFalse_WhenXXXXIsNull. Assert that guestName and horoscopeSign are not null.
   
 **Quest 4: Level Up: Add Documentation!**
 - Prompt #8: Write a detailed comment that describe what bookRoom() does, and documents the inputs and output of the function.
