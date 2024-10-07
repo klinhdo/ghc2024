@@ -32,7 +32,7 @@
 - Prompt #4: Comment “// Generate a new tuple to store guest names, the number of guests they are bringing and whether they have paid”
 - Prompt #5: As a hotel, you want to check if the weather this weekend is good. If it’s sunny, you can increase your price, if it’s rainy, you give a discount. <br>
 Try this prompt: <br>
-**Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string. **
+**Write a function that takes a date as input. This function will make an HTTP request to OpenWeather API to get weather data then output whether you should raise price or give a discount. The output is a string.**
 - Bonus Prompt: Once you compile and run into a compiling error, you will see an error message: <error details>. Explain this error and how to fix it.
 
 **Quest 3: Writing Test Cases!**
